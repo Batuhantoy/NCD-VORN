@@ -4,16 +4,18 @@
 
 INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
-1.git clone https://github.com/Batuhantoy/NCD-VORN.git
+
   Go to the folder that you are going to clone this project in your terminal then copy and paste the link down below
 
-2.yarn
+    git clone https://github.com/Batuhantoy/NCD-VORN.git
 
-3.yarn build:release
+    yarn
 
-4.near dev-deploy ./build/release/contract.wasm
+    yarn build:release
 
-5.export CONTRACT=<YOUR_DEV_ACCOUNT>
+    near dev-deploy ./build/release/contract.wasm
+
+    export CONTRACT=<YOUR_DEV_ACCOUNT>
 
 
 ### Project Description
@@ -22,7 +24,7 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
   Lets create a Survey
   
-  near call $CONTRACT createSurvey '{"survey_name":"İçecek","description":"Top drinks"}' --accountId batuhantoy.testnet
+    near call $CONTRACT createSurvey '{"survey_name":"İçecek","description":"Top drinks"}' --accountId batuhantoy.testnet
 
   We can update our Survey detail by its id
   
@@ -34,19 +36,19 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
   Answer a Survey by its id
   
-  near call $CONTRACT answerSurvey '{"survey_id":2425587216,"answer":"blue"}' --accountId batuhantoy.testnet
+    near call $CONTRACT answerSurvey '{"survey_id":2425587216,"answer":"blue"}' --accountId batuhantoy.testnet
 
   We can find a Survey by its id
   
-  near view $CONTRACT findSurveyById '{"survey_ıd":2210718002}'
+    near view $CONTRACT findSurveyById '{"survey_ıd":2210718002}'
 
   We can see all the Surveys
   
-  near view $CONTRACT getSurveys '{"offset":0}'
+    near view $CONTRACT getSurveys '{"offset":0}'
     
   We can see the given answers
   
-  near view $CONTRACT getAnswers '{"survey_id":2425587216}'
+    near view $CONTRACT getAnswers '{"survey_id":2425587216}'
 
 
 

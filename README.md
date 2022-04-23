@@ -40,7 +40,7 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
   We can find a Survey by its id
   
-    near view $CONTRACT findSurveyById '{"survey_ıd":1381722610}'
+    near view $CONTRACT findSurveyById '{"survey_id":1381722610}'
 
   We can see all the Surveys
   

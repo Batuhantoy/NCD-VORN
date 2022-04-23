@@ -24,11 +24,11 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
   Lets create a Survey
   
-    near call $CONTRACT createSurvey '{"survey_name":"İçecek","description":"Top drinks"}' --accountId batuhantoy.testnet
+    near call $CONTRACT createSurvey '{"survey_name":"Car Colors","description":"Best car colour?"}' --accountId batuhantoy.testnet
 
   We can update our Survey detail by its id
   
-    near call $CONTRACT updateSurveyDetail '{"survey_id":24738280,"newDescription":"another onee"}' --accountId batuhantoy.testnet
+    near call $CONTRACT updateSurveyDetail '{"survey_id":24738280,"newDescription":"Best car colour for you?"}' --accountId batuhantoy.testnet
   
   Delete a Survey by its id(you need to be the owner of the Survey to delete a Survey)
   

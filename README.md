@@ -7,11 +7,12 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 1.git clone https://github.com/Batuhantoy/NCD-VORN.git
   Go to the folder that you are going to clone this project in your terminal then copy and paste the link down below
 
-      git clone https://github.com/Batuhantoy/NCD-VORN.git
-
 2.yarn
+
 3.yarn build:release
+
 4.near dev-deploy ./build/release/contract.wasm
+
 5.export CONTRACT=<YOUR_DEV_ACCOUNT>
 
 

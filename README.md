@@ -28,19 +28,19 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
   We can update our Survey detail by its id
   
-    near call $CONTRACT updateSurveyDetail '{"survey_id":24738280,"newDescription":"Best car colour for you?"}' --accountId batuhantoy.testnet
+    near call $CONTRACT updateSurveyDetail '{"survey_id":1381722610,"newDescription":"Best car colour for you?"}' --accountId batuhantoy.testnet
   
   Delete a Survey by its id(you need to be the owner of the Survey to delete a Survey)
   
-    near call $CONTRACT deleteSurvey '{"survey_id":2655624780}' --accountId batuhantoy.testnet
+    near call $CONTRACT deleteSurvey '{"survey_id":1381722610}' --accountId batuhantoy.testnet
 
   Answer a Survey by its id
   
-    near call $CONTRACT answerSurvey '{"survey_id":2425587216,"answer":"blue"}' --accountId batuhantoy.testnet
+    near call $CONTRACT answerSurvey '{"survey_id":1381722610,"answer":"blue"}' --accountId batuhantoy.testnet
 
   We can find a Survey by its id
   
-    near view $CONTRACT findSurveyById '{"survey_ıd":2210718002}'
+    near view $CONTRACT findSurveyById '{"survey_ıd":1381722610}'
 
   We can see all the Surveys
   
@@ -48,7 +48,7 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
     
   We can see the given answers
   
-    near view $CONTRACT getAnswers '{"survey_id":2425587216}'
+    near view $CONTRACT getAnswers '{"survey_id":1381722610}'
 
 
 

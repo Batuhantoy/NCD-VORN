@@ -22,7 +22,7 @@ echo
 # near dev-deploy ./build/debug/simple.wasm
 
 # comment the line below to deploy the other example contract
-near dev-deploy ./build/debug/contract.wasm
+near dev-deploy ./build/release/contract.wasm
 
 echo
 echo

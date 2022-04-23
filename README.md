@@ -57,9 +57,12 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
 
 To clear yarn cache and reset the contract type into your terminal
-  yarn clean cache
-  yarn install
-  npm install
+
+    yarn clean cache
+  
+    yarn install
+  
+    npm install
 
 
 

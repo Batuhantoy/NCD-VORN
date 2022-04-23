@@ -21,25 +21,32 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
   İn this project you can earn NEAR tokens by taking a surveys or You can make a Survey but it coust you 2 NEAR tokens
 
   Lets create a Survey
-    near call $CONTRACT createSurvey '{"survey_name":"İçecek","description":"Top drinks"}' --accountId batuhantoy.testnet
+  
+  near call $CONTRACT createSurvey '{"survey_name":"İçecek","description":"Top drinks"}' --accountId batuhantoy.testnet
 
   We can update our Survey detail by its id
+  
     near call $CONTRACT updateSurveyDetail '{"survey_id":24738280,"newDescription":"another onee"}' --accountId batuhantoy.testnet
   
   Delete a Survey by its id(you need to be the owner of the Survey to delete a Survey)
+  
     near call $CONTRACT deleteSurvey '{"survey_id":2655624780}' --accountId batuhantoy.testnet
 
   Answer a Survey by its id
-    near call $CONTRACT answerSurvey '{"survey_id":2425587216,"answer":"blue"}' --accountId batuhantoy.testnet
+  
+  near call $CONTRACT answerSurvey '{"survey_id":2425587216,"answer":"blue"}' --accountId batuhantoy.testnet
 
   We can find a Survey by its id
-    near view $CONTRACT findSurveyById '{"survey_ıd":2210718002}'
+  
+  near view $CONTRACT findSurveyById '{"survey_ıd":2210718002}'
 
   We can see all the Surveys
-    near view $CONTRACT getSurveys '{"offset":0}'
+  
+  near view $CONTRACT getSurveys '{"offset":0}'
     
   We can see the given answers
-    near view $CONTRACT getAnswers '{"survey_id":2425587216}'
+  
+  near view $CONTRACT getAnswers '{"survey_id":2425587216}'
 
 
 

@@ -52,6 +52,9 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
 
 
+Here is a loom video for this project
+
+    https://www.loom.com/share/30c6f36403ad456d949a7746258a867d
 
 
 

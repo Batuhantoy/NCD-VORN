@@ -20,7 +20,7 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
 ### Project Description
 
-  İn this project you can earn NEAR tokens by taking a surveys or You can make a Survey but it coust you 2 NEAR tokens
+  İn this project you can earn NEAR tokens by taking Surveys or you can make Surveys but it coust you 2 NEAR tokens
 
   Lets create a Survey
   

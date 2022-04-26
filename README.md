@@ -5,11 +5,13 @@
 INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
 
-  Go to the folder that you are going to clone this project in your terminal then copy and paste the link down below
+  To clone this project first go in to the folder that you are going to clone this project then fallow these steps
 
     git clone https://github.com/Batuhantoy/NCD-VORN.git
 
     yarn
+    
+  Deploy to dev account(testnet)
 
     yarn build:release
 
@@ -52,11 +54,14 @@ INSTALL `NEAR CLI` first like this: `npm i -g near-cli`
 
 
 
-Here is a loom video for this project
+Here is my loom video for this project
 
     https://www.loom.com/share/30c6f36403ad456d949a7746258a867d
 
 
+Creating sub-account
+
+    Example : near create-account a.batuhantoy.testnet --masterAccount batuhantoy.testnet
 
 
 To clear yarn cache and reset the contract go into your terminal

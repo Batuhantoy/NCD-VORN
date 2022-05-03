@@ -87,11 +87,11 @@ After you clone this repo to a local folder
      
 3. Answer a Survey
 
-     `./scripts/3.answer_survey.sh` <SURVEY_ID> <YOUR_ANSWER>
+       `./scripts/3.answer_survey.sh` <SURVEY_ID> <YOUR_ANSWER>
      
 4. Update a Survey Detail
 
-     `./scripts/4.updateDetail.sh` <SURVEY_ID> <NEW_DETAİL>
+       `./scripts/4.updateDetail.sh` <SURVEY_ID> <NEW_DETAİL>
      
 5. You can reset the contract 
  

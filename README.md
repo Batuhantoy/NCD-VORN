@@ -74,12 +74,28 @@ To clear yarn cache and reset the contract go into your terminal
 
 
 
-You can also use scripts to make things faster :
+You can also use scripts to call this smart contract functions
 
-1. clone this repo to a local folder
-2. run `yarn`
-3. run `./scripts/1.dev-deploy.sh`
-5. run `./scripts/3.cleanup.sh`
+After you clone this repo to a local folder
+1. Deploy the contract
+
+     `./scripts/1.dev-deploy.sh`
+     
+2. Create a Survey
+
+     `./scripts/2.create_survey.sh <SURVEY_NAME> <DETAİL ABOUT SURVEY>`
+     
+3. Answer a Survey
+
+     `./scripts/3.answer_survey.sh` <SURVEY_ID> <YOUR_ANSWER>
+     
+4. Update a Survey Detail
+
+     `./scripts/4.updateDetail.sh` <SURVEY_ID> <NEW_DETAİL>
+     
+5. You can reset the contract 
+ 
+     `./scripts/5.cleanup.sh`
 
 
 
